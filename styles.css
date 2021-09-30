@@ -89,6 +89,11 @@ body {
   max-height: 300px;
 }
 
+.box {
+  position: absolute;
+  cursor: pointer;
+}
+
 .hide {
   display: none!important;
 }
