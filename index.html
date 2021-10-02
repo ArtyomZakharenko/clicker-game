@@ -12,7 +12,8 @@
 
   <div class="app">
     <div class="app__header">
-      <h1 id="time-header">Game duration: <span id="time">5.0</span></h1>
+      <h1 id="greeting-header">Clicker Game</h1>
+      <h1 id="time-header" class="hide">Time remaining: <span id="time">5.0</span></h1>
       <h1 id="result-header" class="hide">Result: <span id="result"></span></h1>
     </div>
     <div class="app__content">
@@ -23,7 +24,7 @@
     <div class="app__footer">
       <div class="input">
         <label for="game-time">Game duration, (seconds)</label>
-        <input type="number" id="game-time" min="5" step="1" value="5">
+        <input type="number" id="game-time" min="5" step="1" value="5" onkeydown="return false;">
       </div>
     </div>
   </div>

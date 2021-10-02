@@ -89,9 +89,10 @@ body {
   max-height: 300px;
 }
 
-.box {
+.circle {
   position: absolute;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .hide {
